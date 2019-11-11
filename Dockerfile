@@ -46,7 +46,7 @@ RUN apt-get update && \
     mv sambamba-0.6.9-linux-static /usr/local/bin/sambamba && \
     mkdir -p /opt/softwares/ && \
     cd /opt/softwares/ && \
-    wget -c https://github.com/arq5x/lumpy-sv/releases/download/$VERSION/lumpy-sv.tar.gz && \
+    wget -c https://github.com/arq5x/lumpy-sv/releases/download/$lumpy_version/lumpy-sv.tar.gz && \
     tar -zxvf lumpy-sv.tar.gz && \
     cd lumpy-sv && \
     make && \
